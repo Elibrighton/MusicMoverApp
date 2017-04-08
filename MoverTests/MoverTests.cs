@@ -1,10 +1,10 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace FileMoverTests
+namespace MoverTests
 {
     [TestClass]
-    public class FileMoverTests
+    public class MoverTests
     {
         [TestMethod]
         public void TestMethod1()

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("FileMoverTests")]
+[assembly: AssemblyTitle("Mover")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("FileMoverTests")]
+[assembly: AssemblyProduct("Mover")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("f64fdd58-2635-4b05-b463-7bbd0d466cec")]
+[assembly: Guid("f05052d9-d4ce-4a3c-bd52-2c0ae5bb5b04")]
 
 // Version information for an assembly consists of the following four values:
 //

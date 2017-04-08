@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F64FDD58-2635-4B05-B463-7BBD0D466CEC}</ProjectGuid>
+    <ProjectGuid>{E91DE9A4-6756-4F7B-AD49-A2F530F4C38C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FileMoverTests</RootNamespace>
-    <AssemblyName>FileMoverTests</AssemblyName>
+    <RootNamespace>MoverTests</RootNamespace>
+    <AssemblyName>MoverTests</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -50,13 +50,13 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="FileMoverTests.cs" />
+    <Compile Include="MoverTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FileMover\FileMover.csproj">
-      <Project>{c3362ff2-8922-43a9-becd-30b8b6a78296}</Project>
-      <Name>FileMover</Name>
+    <ProjectReference Include="..\Mover\Mover.csproj">
+      <Project>{f05052d9-d4ce-4a3c-bd52-2c0ae5bb5b04}</Project>
+      <Name>Mover</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
