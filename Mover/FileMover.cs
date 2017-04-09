@@ -22,5 +22,19 @@ namespace Mover
 
             if (!File.Exists(destinationFile)) throw new FileNotFoundException("destinationFile does not exist");
         }
+
+        public void Delete(string targetPath, string fileName)
+        {
+            if (string.IsNullOrEmpty(targetPath)) throw new ArgumentNullException("targetPath is null or empty");
+            if (string.IsNullOrEmpty(fileName)) throw new ArgumentNullException("fileName is null or empty");
+
+            var destinationFile = Path.Combine(targetPath, fileName);
+
+            if (!File.Exists(destinationFile)) throw new FileNotFoundException("destinationFile does not exist");
+
+            File.Delete(destinationFile);
+
+            if (File.Exists(destinationFile)) throw new FileNotFoundException("destinationFile exists");
+        }
     }
 }

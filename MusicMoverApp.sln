@@ -14,7 +14,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{90FF2C8A-A56C-448E-9263-2B2376B4BB5C}"
 	ProjectSection(SolutionItems) = preProject
 		TestFiles\Source\01. DJ Jay Rock - Intro.mp3 = TestFiles\Source\01. DJ Jay Rock - Intro.mp3
+		TestFiles\Source\Porky Pig - That's All Folks.mp3 = TestFiles\Source\Porky Pig - That's All Folks.mp3
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Target", "Target", "{6D7DC953-672D-44C4-A1EC-98F05EE57C09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,5 +43,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{90FF2C8A-A56C-448E-9263-2B2376B4BB5C} = {66B55F27-7DE6-485A-AF78-D7A75348A4AA}
+		{6D7DC953-672D-44C4-A1EC-98F05EE57C09} = {66B55F27-7DE6-485A-AF78-D7A75348A4AA}
 	EndGlobalSection
 EndGlobal
