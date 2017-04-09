@@ -9,6 +9,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mover", "Mover\Mover.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoverTests", "MoverTests\MoverTests.csproj", "{E91DE9A4-6756-4F7B-AD49-A2F530F4C38C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestFiles", "TestFiles", "{66B55F27-7DE6-485A-AF78-D7A75348A4AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{90FF2C8A-A56C-448E-9263-2B2376B4BB5C}"
+	ProjectSection(SolutionItems) = preProject
+		TestFiles\Source\01. DJ Jay Rock - Intro.mp3 = TestFiles\Source\01. DJ Jay Rock - Intro.mp3
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +37,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{90FF2C8A-A56C-448E-9263-2B2376B4BB5C} = {66B55F27-7DE6-485A-AF78-D7A75348A4AA}
 	EndGlobalSection
 EndGlobal
