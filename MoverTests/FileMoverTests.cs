@@ -29,6 +29,12 @@ namespace MoverTests
             testDeleteSourceFile = Path.Combine(testSourcePath, testDeleteFileName);
             testDeleteDestinationFile = Path.Combine(testTargetPath, testDeleteFileName);
 
+            // create target directory if it doesnt exist
+            if (!Directory.Exists(testTargetPath))
+            {
+                Directory.CreateDirectory(testTargetPath);
+            }
+
             // clean up previously copied file
             if (File.Exists(testCopyDestinationFile))
             {
